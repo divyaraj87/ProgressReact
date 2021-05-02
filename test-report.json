@@ -1,0 +1,86 @@
+{
+  "stats": {
+    "tests": 11,
+    "passes": 6,
+    "failures": 5,
+    "duration": 31110,
+    "start": "2021-05-02T05:00:47.544Z",
+    "end": "2021-05-02T05:01:18.654Z"
+  },
+  "failures": [
+    {
+      "title": "ControlBar – ControlBar Page – should render App",
+      "fullTitle": "ControlBar",
+      "duration": 10920,
+      "errorCount": 1,
+      "error": "1 failure:\r\n* TypeError: Cannot read property 'rendered' of null\n    at getNodeFromRootFinder (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme-adapter-utils\\src\\Utils.js:331:17)\n    at Object.getNode (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:168:16)\n    at new ReactWrapper (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme\\src\\ReactWrapper.js:117:44)\n    at mount (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme\\src\\mount.js:10:10)\n    at Object.<anonymous> (D:\\ProgressBar\\ProgressReact\\src\\__tests__\\ControlBar\\ControlBar.test.js:28:21)\n    at Object.asyncJestLifecycle (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:58:37)\n    at resolve (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12)\n    at new Promise (<anonymous>)\n    at mapper (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)\n    at promise.then (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+    },
+    {
+      "title": "LoadComponent – LoadComponent Page – should render LoadComponent",
+      "fullTitle": "LoadComponent",
+      "duration": 10952,
+      "errorCount": 1,
+      "error": "1 failure:\r\n* TypeError: Cannot read property 'rendered' of null\n    at getNodeFromRootFinder (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme-adapter-utils\\src\\Utils.js:331:17)\n    at Object.getNode (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:168:16)\n    at new ReactWrapper (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme\\src\\ReactWrapper.js:117:44)\n    at mount (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme\\src\\mount.js:10:10)\n    at Object.<anonymous> (D:\\ProgressBar\\ProgressReact\\src\\__tests__\\LoadComponent\\LoadComponent.test.js:36:21)\n    at Object.asyncJestLifecycle (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:58:37)\n    at resolve (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12)\n    at new Promise (<anonymous>)\n    at mapper (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)\n    at promise.then (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+    },
+    {
+      "title": "ProgressBar – ProgressBar Page – should render App",
+      "fullTitle": "ProgressBar",
+      "duration": 10949,
+      "errorCount": 1,
+      "error": "1 failure:\r\n* TypeError: Cannot read property 'bgcolor' of undefined\n    at ProgressBar.render (D:\\ProgressBar\\ProgressReact\\src\\components\\ProgressBar.js:14:49)\n    at finishClassComponent (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:17485:31)\n    at updateClassComponent (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:17435:24)\n    at beginWork (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:19073:16)\n    at HTMLUnknownElement.callCallback (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:3945:14)\n    at HTMLUnknownElement.callTheUserObjectsOperation (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\generated\\EventListener.js:26:30)\n    at innerInvokeEventListeners (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:338:25)\n    at invokeEventListeners (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:274:3)\n    at HTMLUnknownElementImpl._dispatch (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:221:9)\n    at HTMLUnknownElementImpl.dispatchEvent (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:94:17)\n    at HTMLUnknownElement.dispatchEvent (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\generated\\EventTarget.js:231:34)\n    at Object.invokeGuardedCallbackDev (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:3994:16)\n    at invokeGuardedCallback (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:4056:31)\n    at beginWork$1 (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:23964:7)\n    at performUnitOfWork (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:22779:12)\n    at workLoopSync (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:22707:5)\n    at renderRootSync (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:22670:7)\n    at performSyncWorkOnRoot (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:22293:18)\n    at scheduleUpdateOnFiber (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:21881:7)\n    at updateContainer (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:25482:3)\n    at D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:26021:7\n    at unbatchedUpdates (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:22431:12)\n    at legacyRenderSubtreeIntoContainer (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:26020:5)\n    at Object.render (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:26103:10)\n    at Object.render (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:152:31)\n    at new ReactWrapper (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme\\src\\ReactWrapper.js:115:16)\n    at mount (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme\\src\\mount.js:10:10)\n    at Object.<anonymous> (D:\\ProgressBar\\ProgressReact\\src\\__tests__\\ProgressBar\\ProgressBar.test.js:28:21)\n    at Object.asyncJestLifecycle (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:58:37)\n    at resolve (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12)\n    at new Promise (<anonymous>)\n    at mapper (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)\n    at promise.then (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+    },
+    {
+      "title": "ProgressComponent – ProgressComponent Page – should render ProgressComponent",
+      "fullTitle": "ProgressComponent",
+      "duration": 1734,
+      "errorCount": 1,
+      "error": "1 failure:\r\n* TypeError: Cannot read property 'rendered' of null\n    at getNodeFromRootFinder (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme-adapter-utils\\src\\Utils.js:331:17)\n    at Object.getNode (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:168:16)\n    at new ReactWrapper (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme\\src\\ReactWrapper.js:117:44)\n    at mount (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme\\src\\mount.js:10:10)\n    at Object.<anonymous> (D:\\ProgressBar\\ProgressReact\\src\\__tests__\\ProgressComponent\\ProgressComponent.test.js:23:21)\n    at Object.asyncJestLifecycle (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:58:37)\n    at resolve (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12)\n    at new Promise (<anonymous>)\n    at mapper (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)\n    at promise.then (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+    },
+    {
+      "title": "Header – Header Page – should render Header",
+      "fullTitle": "Header",
+      "duration": 1821,
+      "errorCount": 1,
+      "error": "1 failure:\r\n* Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\n\nCheck the render method of `WrapperComponent`.\n    at createFiberFromTypeAndProps (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:25058:21)\n    at createFiberFromElement (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:25086:15)\n    at reconcileSingleElement (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:14052:23)\n    at reconcileChildFibers (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:14112:35)\n    at reconcileChildren (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:16990:28)\n    at finishClassComponent (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:17511:5)\n    at updateClassComponent (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:17435:24)\n    at beginWork (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:19073:16)\n    at HTMLUnknownElement.callCallback (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:3945:14)\n    at HTMLUnknownElement.callTheUserObjectsOperation (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\generated\\EventListener.js:26:30)\n    at innerInvokeEventListeners (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:338:25)\n    at invokeEventListeners (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:274:3)\n    at HTMLUnknownElementImpl._dispatch (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:221:9)\n    at HTMLUnknownElementImpl.dispatchEvent (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\events\\EventTarget-impl.js:94:17)\n    at HTMLUnknownElement.dispatchEvent (D:\\ProgressBar\\ProgressReact\\node_modules\\jsdom\\lib\\jsdom\\living\\generated\\EventTarget.js:231:34)\n    at Object.invokeGuardedCallbackDev (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:3994:16)\n    at invokeGuardedCallback (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:4056:31)\n    at beginWork$1 (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:23964:7)\n    at performUnitOfWork (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:22779:12)\n    at workLoopSync (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:22707:5)\n    at renderRootSync (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:22670:7)\n    at performSyncWorkOnRoot (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:22293:18)\n    at scheduleUpdateOnFiber (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:21881:7)\n    at updateContainer (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:25482:3)\n    at D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:26021:7\n    at unbatchedUpdates (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:22431:12)\n    at legacyRenderSubtreeIntoContainer (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:26020:5)\n    at Object.render (D:\\ProgressBar\\ProgressReact\\node_modules\\react-dom\\cjs\\react-dom.development.js:26103:10)\n    at Object.render (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:152:31)\n    at new ReactWrapper (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme\\src\\ReactWrapper.js:115:16)\n    at mount (D:\\ProgressBar\\ProgressReact\\node_modules\\enzyme\\src\\mount.js:10:10)\n    at Object.<anonymous> (D:\\ProgressBar\\ProgressReact\\src\\__tests__\\Header\\Header.test.js:23:21)\n    at Object.asyncJestLifecycle (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:58:37)\n    at resolve (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12)\n    at new Promise (<anonymous>)\n    at mapper (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)\n    at promise.then (D:\\ProgressBar\\ProgressReact\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+    }
+  ],
+  "passes": [
+    {
+      "title": "Actions – call selectChange",
+      "fullTitle": "Actions",
+      "duration": 1502,
+      "errorCount": 0
+    },
+    {
+      "title": "Actions – call progressChange",
+      "fullTitle": "Actions",
+      "duration": 1502,
+      "errorCount": 0
+    },
+    {
+      "title": "Actions – call progressLoad",
+      "fullTitle": "Actions",
+      "duration": 1502,
+      "errorCount": 0
+    },
+    {
+      "title": "Actions – call fieldLoad",
+      "fullTitle": "Actions",
+      "duration": 1502,
+      "errorCount": 0
+    },
+    {
+      "title": "Actions – call responseMap",
+      "fullTitle": "Actions",
+      "duration": 1502,
+      "errorCount": 0
+    },
+    {
+      "title": "ActionTypes – should have the same value as the variable name",
+      "fullTitle": "ActionTypes",
+      "duration": 443,
+      "errorCount": 0
+    }
+  ],
+  "skipped": []
+}
